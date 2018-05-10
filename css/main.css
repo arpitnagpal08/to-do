@@ -1,0 +1,30 @@
+.col-md-9{
+	padding: 10px;
+}
+body{
+	background: Url('header-background.jpg');
+	color: #e7e7e7;
+}
+span.done-true{
+	color: #222;
+	text-decoration: line-through;
+	font-style: italic;
+}
+.list{
+	font-size: 20px;
+}
+.listItems{
+	padding-left: 2%;
+}
+span{
+	-webkit-transition: .2s ease-in;
+}
+span:hover{
+	-webkit-transition: padding-left  .2s ease-in;
+	padding-left: 10px;
+	cursor: pointer;
+}
+span[contentEditable="true"]{
+	padding: 10px;
+	background-color: gray;
+}
